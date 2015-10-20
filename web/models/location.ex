@@ -5,7 +5,6 @@ defmodule Sb2Phoenix.Location do
     field :name, :string
     field :location, :string
 
-    timestamps
   end
 
   @required_fields ~w(name location)
