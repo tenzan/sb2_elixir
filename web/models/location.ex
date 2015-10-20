@@ -1,7 +1,7 @@
 defmodule Sb2Phoenix.Location do
   use Sb2Phoenix.Web, :model
 
-  schema "locations" do
+  schema "location" do
     field :name, :string
     field :location, :string
 

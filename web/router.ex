@@ -16,7 +16,7 @@ defmodule Sb2Phoenix.Router do
   scope "/", Sb2Phoenix do
     pipe_through :browser # Use the default browser stack
 
-    resources “/locations", LocationController
+    resources "/locations", LocationController
 
     get "/", PageController, :index
   end
