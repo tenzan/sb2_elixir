@@ -37,6 +37,6 @@ config :sb2_phoenix, Sb2Phoenix.Repo,
   adapter: Ecto.Adapters.MySQL,
   username: "root",
   password: "root",
-  database: "sb2_phoenix_dev",
+  database: "switchboard_2_api_poc",
   hostname: "localhost",
   pool_size: 10

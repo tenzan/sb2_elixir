@@ -25,5 +25,5 @@ import_config "#{Mix.env}.exs"
 
 # Configure phoenix generators
 config :phoenix, :generators,
-  migration: true,
+  migration: false,
   binary_id: false
