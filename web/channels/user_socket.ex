@@ -3,6 +3,7 @@ defmodule Sb2Phoenix.UserSocket do
 
   ## Channels
   # channel "rooms:*", Sb2Phoenix.RoomChannel
+  channel "locations", Sb2Phoenix.LocationChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
