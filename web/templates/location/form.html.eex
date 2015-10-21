@@ -15,11 +15,11 @@
       <%= label f, :name, "Name", class: "control-label" %>
       <%= text_input f, :name, class: "form-control" %>
     </div>
-  </div>
 
-  <div class="form-group">
-    <%= label f, :location, "Location", class: "control-label" %>
-    <%= text_input f, :location, class: "form-control" %>
+    <div class="form-group">
+      <%= label f, :location, "Location", class: "control-label" %>
+      <%= text_input f, :location, class: "form-control" %>
+      </div>
   </div>
 
   <div class="form-group">
