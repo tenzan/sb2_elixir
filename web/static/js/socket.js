@@ -64,13 +64,15 @@ let messagesContainer = $("#messages")
 
 locationInput.on("keypress", event => {
   if(event.keyCode == 13) {
-    channel.push("new_msg", {body: locationInput.val()})
+    channel.push("new_msg1", {name: locationInput.val()})
+    channel.push("new_msg2", {location: locationInput.val()})
     locationInput.val("")
   }
 })
 
-channel.on("new_msg", payload => {
-  messagesContainer.append(`<br/>[${Date()}] ${payload.body}`)
+channel.on("new_msg1", "new_msg1", payload => {
+  messagesContainer.append(`${payload.name}`)
+  messagesContainer.append(`${payload.location}`)
 })
 
 channel.join()
