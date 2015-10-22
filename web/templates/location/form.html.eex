@@ -13,12 +13,12 @@
   <div id="messages">
     <div class="form-group">
       <%= label f, :name, "Name", class: "control-label" %>
-      <%= text_input f, :name, class: "form-control" %>
+      <%= text_input f, :name, class: "form-control", id: "location-input" %>
     </div>
 
     <div class="form-group">
       <%= label f, :location, "Location", class: "control-label" %>
-      <%= text_input f, :location, class: "form-control" %>
+      <%= text_input f, :location, class: "form-control", id: "location-input" %>
       </div>
   </div>
 
