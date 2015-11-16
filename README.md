@@ -1,6 +1,15 @@
 # Sb2Phoenix
 
-To start your Phoenix app:
+## Purpose
+
+ 1. To connect to an existing MySQL database
+ 2. Implement realtime updates, i.e. when I do CRUD operations on one browser it should reflect changes in realtime on another browser.
+
+## Problem
+
+ * The item #2 of the purpose above has not been yet solved.
+
+## To start your Phoenix app:
 
   1. Install dependencies with `mix deps.get`
   2. Create and migrate your database with `mix ecto.create && mix ecto.migrate`
@@ -10,10 +19,6 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
 
-## Learn more
+## On-going google group discussion
 
-  * Official website: http://www.phoenixframework.org/
-  * Guides: http://phoenixframework.org/docs/overview
-  * Docs: http://hexdocs.pm/phoenix
-  * Mailing list: http://groups.google.com/group/phoenix-talk
-  * Source: https://github.com/phoenixframework/phoenix
+ * https://groups.google.com/forum/#!topic/phoenix-talk/SlDDhK8MrNw
